@@ -17,6 +17,7 @@
   flex: auto;
 }
 
+/* UV index color code */
 .severe {
   padding: 3px;
   background-color: maroon;

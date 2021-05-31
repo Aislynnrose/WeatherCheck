@@ -10,6 +10,6 @@
 *The UV index will be green for good, yellow for okay and red for bad
 
 ### Check me out 👀
-![Github deployed page](https://aislynnrose.github.io/WeatherCheck/)
+[Github deployed page](https://aislynnrose.github.io/WeatherCheck/)
 
 ![Weather Snippet](/snippet.PNG)

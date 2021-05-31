@@ -29,6 +29,7 @@ let saveSearch = function () {
   localStorage.setItem("cities", JSON.stringify(cities));
 };
 
+// api fetch
 let getCityWeather = function (city) {
   let apiKey = "844421298d794574c100e3409cee0499";
   let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
