@@ -41,6 +41,7 @@ let getCityWeather = function (city) {
   });
 };
 
+// display data to the page
 let displayWeather = function (weather, searchCity) {
   currentWeatherEl.textContent = "";
   searchedCityEl.textContent = searchCity;
@@ -112,6 +113,7 @@ let displayUvIndex = function (index) {
   currentWeatherEl.appendChild(uvIndexEl);
 };
 
+// Get 5 day forecast
 let get5Day = function (city) {
   let apiKey = "c1d196b649e9f56e18848ab3da312045";
   let apiURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${apiKey}`;
@@ -123,6 +125,7 @@ let get5Day = function (city) {
   });
 };
 
+// display data on the page
 let display5Day = function (weather) {
   fiveDayEl.textContent = "";
   forecastEl.textContent = "5-Day Forecast:";
