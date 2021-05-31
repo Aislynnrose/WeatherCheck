@@ -1,0 +1,35 @@
+/* reset */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.search-column {
+  background-color: lavender;
+}
+
+.createLi {
+  line-height: 1.5;
+  border: none;
+}
+.card-body {
+  flex: auto;
+}
+
+.severe {
+  padding: 3px;
+  background-color: maroon;
+  color: lavender;
+}
+
+.moderate {
+  padding: 3px;
+  background-color: gold;
+}
+
+.favorable {
+  padding: 3px;
+  background-color: darkgreen;
+  color: lavender;
+}
